@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 body{
     /*font of the site*/
     font-family: 'Poppins', sans-serif;
@@ -53,4 +52,45 @@ a:hover{
 }
 .bar{
     font-weight: bold;
+}
+/*styling for the nav bar*/
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(80, 55, 80);
+}
+.text{
+    width: 85%;
+    color: rgb(180, 155, 200);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 42rem;
+}
+.small-p{
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.main-h1{
+    font-size: 4rem;
+    font-weight: bolder;
+    line-height: 5rem;
+}
+.p-text{
+    width: 80%;
+    font-size: 1.6rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.spt-button{
+    width: 280px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color:rgb(180, 155, 200);
 }
