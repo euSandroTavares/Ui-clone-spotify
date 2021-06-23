@@ -9,6 +9,7 @@ body {
   /*basic syling*/
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -20,7 +21,7 @@ body {
 
 header {
   background-color: black;
-
+  width: 100%;
   /*this is to make the nav tag centered*/
   display: flex;
   align-items: center;
@@ -32,7 +33,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   display: flex;
-  width: 85vw;
+  width: 1150px;
   height: 80px;
 }
 ul {
@@ -56,20 +57,32 @@ a:hover {
   font-weight: bold;
 }
 /*styling for the nav bar*/
+
 main {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(80, 55, 80);
+  flex-direction: column;
 }
+
+
+/*code for the first section*/
 .text {
-  width: 85%;
+  width: 100%;
   color: rgb(180, 155, 200);
+  background-color: rgb(80, 55, 80);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 42rem;
 }
+
+.global {
+  display: flex;
+  align-items: center;
+  width: 1150px;
+}
+
 .small-p {
   font-size: large;
   font-weight: bold;
@@ -95,4 +108,10 @@ main {
   font-weight: bold;
   letter-spacing: 2px;
   background-color: rgb(180, 155, 200);
+  cursor: pointer;
+}
+/*make the hover efect*/
+.spt-button:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s ease-in-out;
 }
