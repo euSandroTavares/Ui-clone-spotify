@@ -69,7 +69,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 42rem;
+  height: 44rem;
 }
 .global {
   display: flex;
@@ -108,3 +108,4 @@ main {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: 0.5s ease-in-out;
 }
+/*code for the footer part*/
