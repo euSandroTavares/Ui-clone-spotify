@@ -55,57 +55,23 @@ a:hover {
   font-weight: bold;
 }
 /*styling for the nav bar*/
-main {
+main{
+  /*adding a background image*/
+  background-image: url(/images/bursts.svg);
+  background-size: 175%;
+  background-repeat: no-repeat;
+  /*position of the image*/
+  background-position: 46% 4%;
+  /*make the text centered*/
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+
+  /*sizing of the screen*/
+  width: 1351px;
+  min-height: 846px;
+
+  /*background color and text color*/
+  background-color: #2941ab;
+  color: white;
 }
-/*code for the first section*/
-.text {
-  width: 100%;
-  color: rgb(180, 155, 200);
-  background-color: rgb(80, 55, 80);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 44rem;
-}
-.global {
-  display: flex;
-  align-items: center;
-  width: 1150px;
-}
-.small-p {
-  font-size: large;
-  font-weight: bold;
-  margin-bottom: 50px;
-}
-.main-h1 {
-  font-size: 4rem;
-  font-weight: bolder;
-  line-height: 5rem;
-}
-.p-text {
-  width: 80%;
-  font-size: 1.6rem;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-.spt-button {
-  width: 280px;
-  height: 50px;
-  border-radius: 50px;
-  border: none;
-  font-size: 1.3rem;
-  font-weight: bold;
-  letter-spacing: 2px;
-  background-color: rgb(180, 155, 200);
-  cursor: pointer;
-}
-/*make the hover efect*/
-.spt-button:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transition: 0.5s ease-in-out;
-}
-/*code for the footer part*/
