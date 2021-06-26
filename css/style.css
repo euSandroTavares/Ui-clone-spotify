@@ -93,3 +93,23 @@ main {
   background-color: #2941ab;
   color: white;
 }
+/*code for the text*/
+.hero-section{
+  text-align: center;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  color: #1ed760;
+}
+h1{
+  text-indent: -3em;
+  font-weight: bolder;
+  align-content: center;
+  font-size: 136px;
+  line-height: 166px;
+  padding-bottom: 40px;
+  transform: translate(60px);
+}
+.texts{
+
+}
