@@ -31,13 +31,29 @@ nav {
   align-items: center;
   justify-content: space-between;
   display: flex;
-  width: 1150px;
+  width: 1140px;
   height: 80px;
 }
+
 ul {
   display: flex;
   color: white;
 }
+
+/*making the nav bar animated*/
+.slide-left {
+  animation: slide-left .5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(600px);
+  }
+  100% {
+    transform: translateX(-0px);
+  }
+}
+
 li {
   list-style-type: none;
 }
@@ -55,7 +71,7 @@ a:hover {
   font-weight: bold;
 }
 /*styling for the nav bar*/
-main{
+main {
   /*adding a background image*/
   background-image: url(/images/bursts.svg);
   background-size: 175%;
