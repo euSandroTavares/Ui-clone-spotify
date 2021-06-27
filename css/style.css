@@ -104,9 +104,9 @@ main {
 h1{
   text-indent: -3em;
   font-weight: bolder;
-  align-content: center;
+
   font-size: 136px;
-  line-height: 166px;
+  line-height: 160px;
   padding-bottom: 40px;
   transform: translate(60px);
 }
